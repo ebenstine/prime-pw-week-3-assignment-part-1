@@ -12,7 +12,7 @@ let foodsArray = ['empanada', 'peach', 'blt', 'sungold'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
-console.log('FavoriteFoods are: ', foodsArray);
+console.log('Favorite Foods are: ', foodsArray);
 
 
 // 2. Array.length - tells you how many items are in the array
@@ -34,11 +34,11 @@ console.log('First animal is', animalArray[0])
 console.log('Second animal is', animalArray[1]);
 // 3.b. TODO: Log the last animal in the array using it's array index
 
-console.log('Fourth animal is', animalArray [3]);
+console.log('Last animal is', animalArray[3]);
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
 
-console.log('Fourth animal is', animalArray.length-1);
+console.log('Last animal is', animalArray[animalArray.length - 1]);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -68,7 +68,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 foodsArray.unshift('castelvetrano');
-console.log('Added olive to beginning: {foodsArray}');
+console.log(`Added olive to beginning: ${foodsArray}`);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
